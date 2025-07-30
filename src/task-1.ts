@@ -1,3 +1,5 @@
+//Задача 1. Типізація скалярних значень 
+
 const name: string = "Alice";
 const age: number = 30;
 const isOnline: boolean = true;
