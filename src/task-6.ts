@@ -10,8 +10,8 @@ function getFirstElement<T>(arr: T[]): T {
   return arr[0];
 }
 
-getFirstElement(["a", 1, true]);
-//getFirstElement<string>(["a", 1, true]);
+getFirstElement<string | number | boolean>(["a", 1, true]);
+
 
 
 getFirstElement<number>([1, 2, 3]);           // 1

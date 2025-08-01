@@ -6,11 +6,7 @@
 4. Залиш реалізацію функції без змін.*/
 
 
-/*enum Status {
-    Loading = "loading",
-    Success = "success",
-    Error = "error"
-}*/
+
 
 type Status = "loading" | "success" | "error";
 
